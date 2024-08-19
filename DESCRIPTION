@@ -1,7 +1,7 @@
 Package: HydroPortailStats
 Type: Package
 Title: 'HydroPortail' Statistical Functions
-Version: 1.0.3
+Version: 1.1.0
 Authors@R: c(
     person("Benjamin", "Renard", email = "benjamin.renard@inrae.fr",role = c("aut", "cre","cph"),comment = c(ORCID = "0000-0001-8447-5430")),
     person("INRAE", role = c("fnd")),
@@ -13,12 +13,14 @@ Description: Statistical functions used in the French 'HydroPortail' <https://hy
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/benRenard/HydroPortailStats
+BugReports: https://github.com/benRenard/HydroPortailStats/issues
 Depends: R (>= 3.5.0)
 Imports: stats, graphics, evd, mvtnorm, numDeriv
 RoxygenNote: 7.2.3
 Suggests: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2023-05-24 10:20:42 UTC; brenard
+Packaged: 2024-08-19 07:40:36 UTC; brenard
 Author: Benjamin Renard [aut, cre, cph]
     (<https://orcid.org/0000-0001-8447-5430>),
   INRAE [fnd],
@@ -28,4 +30,4 @@ Author: Benjamin Renard [aut, cre, cph]
     under the Marie Sklodowska-Curie grant agreement No 835496)
 Maintainer: Benjamin Renard <benjamin.renard@inrae.fr>
 Repository: CRAN
-Date/Publication: 2023-05-25 19:50:06 UTC
+Date/Publication: 2024-08-19 13:50:02 UTC
